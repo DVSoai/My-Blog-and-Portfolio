@@ -14,7 +14,7 @@ const CareerData: Career[] = [
   {
     org: 'Younet Media',
     url: 'https://younetmedia.com',
-    logo: '/static/images/avatar.png',
+    logo: '/static/images/avatar.jpg',
     start: 'Mar 2022',
     end: 'Present',
     title: 'Junior Software Engineer',
@@ -43,7 +43,7 @@ const CareerData: Career[] = [
   {
     org: 'QKIT Software',
     url: 'https://qkit.vn',
-    logo: '/static/images/avatar.png',
+    logo: '/static/images/avatar.jpg',
     start: 'Jan 2021',
     end: 'Dec 2022',
     title: 'Fresher Backend Developer',
@@ -70,7 +70,7 @@ const CareerData: Career[] = [
   {
     org: 'University of Information Technology',
     url: 'https://en.uit.edu.vn',
-    logo: '/static/images/avatar.png',
+    logo: '/static/images/avatar.jpg',
     start: 'Aug 2019',
     end: 'Jun 2023',
     title: 'Student ad UIT',
