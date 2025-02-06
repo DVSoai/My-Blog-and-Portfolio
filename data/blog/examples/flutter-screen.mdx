@@ -1,0 +1,31 @@
+---
+title: 'Why the Size is (375, 812)? How do we decide these numbers? using screen_util'
+date: '2024-05-30'
+tags: ['flutter', 'responsive-design', 'screen-util']
+draft: false
+summary: 'Explaining why the screen size (375, 812) is used as a reference and how we use the flutter_screenutil package to make Flutter apps responsive.'
+---
+
+# Why the Size is (375, 812)? How do we decide these numbers? using screen_util
+
+The size `(375, 812)` is a common reference size for designing responsive user interfaces, especially for mobile apps. These dimensions are based on the screen size of the iPhone X, which has a resolution of 375 points wide by 812 points tall in logical pixels. This size is often used as a standard reference for designing layouts because it represents a modern, high-resolution smartphone screen.
+
+### Why use (375, 812)?
+
+- **iPhone X**: The iPhone X introduced a new screen size standard, which designers and developers have adopted as a baseline for mobile UI design. The screen size of 375 x 812 points (not pixels) is considered a good reference for most modern smartphones.
+- **Logical pixels**: These values are measured in "logical pixels," which are independent of the physical resolution and ensure that the app looks consistent across different screen resolutions and densities.
+
+### Making Your Flutter App Responsive with `flutter_screenutil`
+
+To make your Flutter app responsive across different screen sizes and resolutions, you can use the `flutter_screenutil` package. This package provides a simple and effective way to handle screen size variations by allowing you to specify design dimensions relative to a reference screen size.
+
+Here’s how to use `flutter_screenutil` in your Flutter app:
+
+1. **Install flutter_screenutil**: First, add the `flutter_screenutil` package to your `pubspec.yaml` file:
+
+   ```yaml
+   dependencies:
+     flutter:
+       sdk: flutter
+     flutter_screenutil: ^5.0.0
+   ```
